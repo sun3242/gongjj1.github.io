@@ -33,20 +33,20 @@
     main p#en{
         font-size: 1.6em;
         color:lightblue;
-        text-shadow: 2px 2px gray ;
+        text-shadow: 2px 2px rgb(128, 128, 128) ;
     }
     main p#pn{
         font-size: 1.2em;
-        color:lightseagreen;
+        color:rgb(10, 125, 64);
        }
     form{
         position: absolute ;
         width: 90% ;
         height: 50% ;
-        border: 2px solid gray;
+        border: 2px solid rgba(67, 151, 106, 0.97);
         left: 5% ;
         top: 10% ;
-        background-color: antiquewhite;
+        background-color: rgb(68, 180, 169);
         font-size: 1.1em ;
     }
     form input{
@@ -71,18 +71,18 @@
     }
     p.cn{
       border:1px solid blue ;
-      background-color: antiquewhite;
+      background-color: rgb(41, 121, 130);
       cursor: pointer;
       font-size: 0.8em;
       margin-bottom: 0.2em;
     }
     p.cn.right{
-      background-color: yellow;
-      color: red ;
+      background-color: rgb(42, 156, 99);
+      color: rgb(184, 51, 51) ;
     }
     p.cn.wrong{
-      background-color: gray;
-      color:white;
+      background-color: rgb(178, 193, 41);
+      color:rgb(189, 58, 51);
     }
     p.cn:hover{
         color: blue ;
@@ -95,8 +95,8 @@
         top:2em;
     }
     p#log{
-        background-color: gray;
-        color: white;
+        background-color: rgba(53, 171, 159, 0.801);
+        color: rgb(255, 255, 255);
         font-size: 0.65em;
         padding: 5px 10px;
         text-align: center;
